@@ -1,4 +1,4 @@
-
+# Nots and quotas
 Possible dangerous deployment of POSTGRES with ReadWriteOnce PVC
 Hello,
 
@@ -12,6 +12,7 @@ Maybe it's worth to add a note about this, since we are creating the postgres de
 
 DaemonSets?
 replicasets?
+ConfigMap? 
 
 secret types:
 generic - arbitrary number of key value pairs
@@ -34,4 +35,13 @@ k create secret generic <secret_name> --from-literal key=value
 k create secret generic <secret_name> --from <file>
 
 ingress-nginx:
-https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html.
+https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html
+
+https://kubernetes.io/docs/concepts/services-networking/ingress/
+
+
+
+You could have used a VM like VMWare to create a Linux installation.  Installed a load balancer like HAProxy and K8 cluster and showed it working on bare metal.  It is useful to see it deployed to a cloud provider but avoids the issues involved in self hosting.
+
+
+
