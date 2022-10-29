@@ -43,6 +43,3 @@ https://kubernetes.io/docs/concepts/services-networking/ingress/
 
 You could have used a VM like VMWare to create a Linux installation.  Installed a load balancer like HAProxy and K8 cluster and showed it working on bare metal.  It is useful to see it deployed to a cloud provider but avoids the issues involved in self hosting.
 
-
-
-
